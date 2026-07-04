@@ -47,8 +47,7 @@ software/  -> 使用 Visual Studio 或 VS Code 打开 WPF VB.NET 项目
 git submodule update --remote --merge
 ```
 
-当子模块更新后，外层总仓库还需要提交新的 submodule 指针，确保其他人克隆时拿到同一版本的上下位机工程。
-## 系统展示
+当子模块更新后，外层总仓库还需要提交新的 submodule 指针，确保其他人克隆时拿到同一版本的上下位机工程。`r`n`r`n## 系统展示
 
 ### 实物与驱动器
 
@@ -90,7 +89,7 @@ system_motor-control/
 ├── 设计报告-基于STM32与Modbus RTU的矿井液压支架监控系统设计.pdf
 ├── .images/               # README 与报告展示图片
 ├── software/              # WPF + VB.NET 上位机软件
-├── hardware/              # STM32F103VET6 下位机固件、PCB资料、开发文档
+└── hardware/              # STM32F103VET6 下位机固件、PCB资料、开发文档
 ```
 
 说明：
@@ -420,4 +419,5 @@ RAM:   2072 B / 64 KB
 - `hardware/Doc/STM32F103VET6 数据手册.pdf`：芯片数据手册。
 - `hardware/Doc/初始开发指导文档.md`：下位机开发指导文档。
 - `.images/`：系统展示图、控制流程图和上位机状态截图。
+
 

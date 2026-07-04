@@ -1,0 +1,6 @@
+[submodule "hardware"]
+	path = hardware
+	url = https://github.com/Rowen-Nell/stm32_hydraulic-support-controller.git
+[submodule "software"]
+	path = software
+	url = https://github.com/Rowen-Nell/wpf-vb_hydraulic-support-monitoring.git

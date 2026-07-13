@@ -1,15 +1,10 @@
 # 基于 STM32 与 Modbus RTU 的矿井液压支架监控系统设计
 
-![License](https://img.shields.io/badge/License-GPLv3-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows-555)
-![Framework](https://img.shields.io/badge/Framework-WPF-purple)
-![Language](https://img.shields.io/badge/Language-VB.NET-blueviolet)
-![MCU](https://img.shields.io/badge/MCU-STM32F103VET6-2ea44f)
-![Protocol](https://img.shields.io/badge/Protocol-Modbus%20RTU-orange)
+![License](https://img.shields.io/badge/License-GPLv3-blue)![Platform](https://img.shields.io/badge/Platform-Windows-555)![Framework](https://img.shields.io/badge/Framework-WPF-purple)![Language](https://img.shields.io/badge/Language-VB.NET-blueviolet)![MCU](https://img.shields.io/badge/MCU-STM32F103VET6-2ea44f)![Protocol](https://img.shields.io/badge/Protocol-Modbus%20RTU-orange)
 
 本项目是一套面向课程设计和工程演示的矿井液压支架模拟监控系统。系统以 STM32F103VET6 为下位机控制核心，以 WPF + VB.NET 上位机作为监控与控制界面，通过 Modbus RTU 串口通信完成状态采集、动作控制、报警判断和历史数据记录。
 
-完整课程设计报告位于：
+完整设计报告位于：
 
 - [设计报告-基于STM32与Modbus RTU的矿井液压支架监控系统设计.pdf](<./设计报告-基于STM32与Modbus RTU的矿井液压支架监控系统设计.pdf>)
 
@@ -419,5 +414,4 @@ RAM:   2072 B / 64 KB
 - `hardware/Doc/STM32F103VET6 数据手册.pdf`：芯片数据手册。
 - `hardware/Doc/初始开发指导文档.md`：下位机开发指导文档。
 - `.images/`：系统展示图、控制流程图和上位机状态截图。
-
 

@@ -1,6 +1,14 @@
 # 基于 STM32 与 Modbus RTU 的矿井液压支架监控系统设计
-
-![License](https://img.shields.io/badge/License-GPLv3-blue)![Platform](https://img.shields.io/badge/Platform-Windows-555)![Framework](https://img.shields.io/badge/Framework-WPF-purple)![Language](https://img.shields.io/badge/Language-VB.NET-blueviolet)![MCU](https://img.shields.io/badge/MCU-STM32F103VET6-2ea44f)![Protocol](https://img.shields.io/badge/Protocol-Modbus%20RTU-orange)
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-orange?style=flat-square" alt="AGPL-3.0 License"></a>
+  <img src="https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/platform-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32">
+  <img src="https://img.shields.io/badge/language-C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C Language">
+  <img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 10">
+  <img src="https://img.shields.io/badge/UI-WPF-512BD4?style=flat-square" alt="WPF">
+  <img src="https://img.shields.io/badge/language-Visual_Basic-512BD4?style=flat-square&logo=visualbasic&logoColor=white" alt="Visual Basic">
+  <img src="https://img.shields.io/badge/protocol-Modbus_RTU-005A9C?style=flat-square" alt="Modbus RTU">
+</p>
 
 本项目是一套面向课程设计和工程演示的矿井液压支架模拟监控系统。系统以 STM32F103VET6 为下位机控制核心，以 WPF + VB.NET 上位机作为监控与控制界面，通过 Modbus RTU 串口通信完成状态采集、动作控制、报警判断和历史数据记录。
 
